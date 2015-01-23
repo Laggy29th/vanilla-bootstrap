@@ -6,7 +6,7 @@
     {asset name="Head"}
   </head>
   <body id="{$BodyID}" class="{$BodyClass} sticky-footer-body">
-    <nav class="navbar navbar-inverse navbar-static-top clearfix" role="navigation">
+    <nav class="navbar navbar-default navbar-static-top clearfix" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
