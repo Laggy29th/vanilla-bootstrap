@@ -1,3 +1,4 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 /*!
  * Bootstrap for Vanilla
  *
@@ -1082,7 +1083,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #a5a7a0;
@@ -1183,10 +1184,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #ffffff;
 }
 h1 small,
 h2 small,
@@ -2736,7 +2737,7 @@ fieldset[disabled] .TextBox,
 fieldset[disabled] .MultiComplete,
 fieldset[disabled] select {
   cursor: not-allowed;
-  background-color: #999999;
+  background-color: #b4c086;
   opacity: 1;
 }
 textarea.form-control,
@@ -3697,7 +3698,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #686f5a;
+  background-color: #2b2c28;
   border: 1px solid #3a3c33;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3740,7 +3741,7 @@ tbody.collapse.in {
 .ac_results li:hover {
   text-decoration: none;
   color: #ffffff;
-  background-color: #3a3c33;
+  background-color: #b4c086;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -3754,7 +3755,7 @@ tbody.collapse.in {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #3a3c33;
+  background-color: #b4c086;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -4098,7 +4099,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #dddfd5;
   text-align: center;
-  background-color: #999999;
+  background-color: #b4c086;
   border: 1px solid #3a3c33;
   border-radius: 4px;
 }
@@ -4738,7 +4739,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .Username:focus,
 .navbar-default .MeBox .FlyoutButton:focus {
   color: #ffffff;
-  background-color: #161715;
+  background-color: #b4c086;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4750,7 +4751,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .Open .FlyoutButton:hover,
 .navbar-default .MeBox .Open .FlyoutButton:focus {
   color: #ffffff;
-  background-color: #161715;
+  background-color: #b4c086;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4775,7 +4776,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #161715;
+  background-color: #b4c086;
   color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -4785,13 +4786,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: #161715;
+    background-color: #b4c086;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #161715;
+    background-color: #b4c086;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -5628,7 +5629,7 @@ a.list-group-item:focus,
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
-  background-color: #999999;
+  background-color: #b4c086;
   color: #2b2c28;
   cursor: not-allowed;
 }
@@ -6447,7 +6448,7 @@ button.token-input-delete-token {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -6555,7 +6556,7 @@ button.token-input-delete-token {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -10938,7 +10939,7 @@ a.Bookmarked:before {
 .FlyoutMenu .Conversation .Item .MItem,
 .FlyoutMenu .Item .Meta a,
 .FlyoutMenu .Conversation .Item .MItem a {
-  color: #878b7d;
+  color: #686a64;
 }
 .Item .Meta .MItem,
 .Item .AuthorInfo .MItem {
@@ -11059,7 +11060,7 @@ tr.Item:after {
 .DataList.Condensed .Item h5,
 .DataList.Condensed .Item h6 {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.42857143;
@@ -11087,7 +11088,7 @@ tr.Item:after {
 .DataList-Search .Item h5,
 .DataList-Search .Item h6 {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.42857143;
@@ -11109,7 +11110,7 @@ tr.Item:after {
 .DataTable h5,
 .DataTable h6 {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.42857143;
@@ -11639,12 +11640,21 @@ img.jcrop-preview {
   vertical-align: top;
   line-height: 20px;
 }
-/**
- * Non-variable stuff
- */
+/* Navbar logo */
 .navbar-brand {
   background: url("site-logo.png") no-repeat -35px top;
   width: 210px;
   font: 0/0 a !important;
   color: transparent !important;
+}
+.navbar {
+  text-transform: uppercase;
+}
+/* Forum-specific customizations */
+.search-form {
+  display: none;
+}
+h1.H,
+.HomepageTitle {
+  margin-top: 0;
 }
