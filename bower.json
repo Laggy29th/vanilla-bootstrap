@@ -27,6 +27,9 @@
     "personnel-theme": "29th/personnel-theme"
   },
   "overrides": {
+    "bootstrap": {
+      "main": "less/bootstrap.less"
+    },
     "bootstrap-social": {
       "main": "bootstrap-social.less"
     },
