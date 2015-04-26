@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {asset name="Head"}
+    <link rel="stylesheet" href="/forums/themes/bootstrap/design/application.css">
   </head>
   <body id="{$BodyID}" class="{$BodyClass} sticky-footer-body">
     <nav class="navbar navbar-inverse navbar-static-top clearfix" role="navigation">
