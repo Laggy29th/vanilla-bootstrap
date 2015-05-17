@@ -1,0 +1,328 @@
+// Light Blue variables
+// -------------------------
+// -------------------------
+
+//@libs-folder: '../../../bower_components';
+//@libs-compiled-folder: '../lib';
+
+// Colors
+// ------------------------
+
+@lime:                  #8CBF26;
+@red:                   #e5603b;
+@red-dark:              #d04f4f;
+@blue:                  #618fb0;
+@green:                 #56bc76;
+@orange:                #eac85e;
+@pink:                  #E671B8;
+@purple:                #A700AE;
+@brown:                 #A05000;
+@teal:                  #4ab0ce;
+@white:                 #ffffff;
+@black:                 #000000;
+
+@colors: @red, @orange, @lime, @green, @teal, @blue, @brown, @red-dark;
+@color-names: red, orange, lime, green, teal, blue, brown, red-dark;
+
+@white-dark:            #f8f8f8;
+@shadow-color:            fade(#676767, .4);
+
+//copy from BS
+@gray-darker:           lighten(#000, 13.5%); // #222
+@gray-dark:             #555;
+@gray:                  #666;
+@gray-light:            lighten(#000, 60%);   // #999
+@gray-lighter:          lighten(#000, 93.5%); // #eee
+@gray-semi-light:       #777;
+@gray-semi-lighter:     #ddd;
+
+@brand-primary:         @blue;
+@brand-success:         @green;
+@brand-warning:         @orange;
+@brand-danger:          @red;
+@brand-info:            @teal;
+
+// Typography
+// -------------------------
+@text-color: @white-dark;
+@text-bold: lighten(@text-color, 3%);
+@text-muted: darken(@text-color, 15%);
+
+@font-family-sans-serif:  "Open Sans", sans-serif;
+
+@font-size-base:          13px;
+@font-size-large:         @font-size-base * 1.25;
+@font-size-larger:        @font-size-base + 1;
+@font-size-small:         12px;
+@font-size-mini:          @font-size-base * 0.75;
+@font-size-index:         @font-size-base * 0.7;
+
+@font-weight-bold: 700;
+@font-weight-semi-bold: 600;
+@font-weight-normal: 400;
+@font-weight-thin: 300;
+@font-weight-base: @font-weight-thin;
+
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+// Links
+// -------------------------
+
+@link-color:            saturate(lighten(@blue, 25%), 50%);
+
+// Layout
+// -------------------------
+
+@wrap-margin: 185px;
+@sidebar-mt: 80px;
+
+
+// Scaffolding
+// -------------------------
+
+@basic-border-color: transparent;
+
+@widget-bg-common:        #333; //#ddd
+@widget-mb:        30px;
+@widget-color:     @text-color;
+@widget-header-color: lighten(@widget-color, 5%);
+@widget-header-smalls-color: @text-muted;
+@widget-controls-color: fade(@white, .45);
+@widget-controls-hover-color: fade(@white, .6);
+
+@text-transparent: fade(@widget-bg-common, .5);
+@bg-addition: fade(@widget-bg-common, .25);
+@widget-bg: fade(@widget-bg-common, .4);
+
+@widget-padding-vertical: 12px;
+@widget-padding-horizontal: 17px;
+@widget-padding: @widget-padding-vertical @widget-padding-horizontal;
+
+
+@sidebar-item-active-bg: fade(@black,.07);
+@sidebar-item-sub-active-bg: darken(@sidebar-item-active-bg, 15%);
+
+@page-title-color: @white;
+
+@header-notification-count: fade(@widget-bg-common, .55);
+
+//@header-search-query-bg-image: url(../img/search-white.png);
+@header-search-query-placeholder-color: fade(#eee, .76);
+
+
+@header-dropdown-primary-color:          @widget-header-color;
+@header-dropdown-secondary-color:        #ddd;
+@header-dropdown-bg:                     fade(@widget-bg-common, .85);
+@header-dropdown-shadow:                 none;
+@header-dropdown-item-hover:             @brand-primary;
+
+@nav-tabs-link-color: @widget-color;
+
+// Widgets
+// -------------------------
+
+@feed-item-bg: @widget-bg;
+@feed-item-line-color: transparent;
+
+@nav-tabs-link-color: @widget-color;
+@nav-tabs-active-item-margin: 0;
+@nav-tabs-active-item-border: @basic-border-color;
+@nav-tabs-active-item-border-bottom: @basic-border-color;
+@nav-tabs-border: none;
+@nav-tabs-tab-content-bg: @bg-addition;
+
+@tabs-widget-active-item-hover-bg: fade(darken(@widget-bg-common, 10%), .4);
+
+@location-selector-bg: @bg-addition;
+@location-selector-border-color: #eee;
+@messenger-spinner-bg: @white;
+
+@calendar-border: fade(@white, .33);
+
+@dropzone-color:         #eee;
+
+/////////////////////////////////////////////////
+//              Font Awesome vars              //
+/////////////////////////////////////////////////
+
+//@fa-font-path: "../font-awesome";
+
+/////////////////////////////////////////////////
+//           Override bootstrap vars           //
+/////////////////////////////////////////////////
+
+@bootstrap-sass-asset-helper: false;
+
+//@icon-font-path: "../bootstrap/fonts/";
+
+// Components
+// -------------------------
+
+@padding-base-vertical:          5px;
+@padding-base-horizontal:        12px;
+
+@padding-small-vertical:         4px;
+@padding-small-horizontal:       10px;
+
+@line-height-large:              1.33;
+@line-height-small:              1.5;
+
+@border-radius-base:        3px;
+
+// Buttons
+// -------------------------
+
+@btn-font-weight:                @font-weight-base;
+
+@btn-default-color:              @white;
+@btn-default-bg:                 @gray;
+@btn-default-border:             rgba(0, 0, 0, 0.15);
+
+@btn-inverse-color:              @gray-dark;
+@btn-inverse-bg: @white-dark;
+
+// Forms
+// -------------------------
+
+@input-color:                    @gray-dark;
+@input-border:                   #ccc;
+@input-border-focus:             #66afe9;
+
+@input-group-addon-bg:           @bg-addition;
+@input-group-addon-border-color: transparent;
+
+// recalculate input heights
+@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 2);
+@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+
+
+@legend-color:                   @white;
+
+// Dropdowns
+// -------------------------
+
+@dropdown-bg:                    @white;
+@dropdown-border:                rgba(0,0,0,.2);
+
+@dropdown-link-active-color:     #fff;
+@dropdown-link-active-bg:        @blue;
+
+@dropdown-link-color:            @gray;
+@dropdown-link-hover-color:      @white;
+@dropdown-link-hover-bg:         @dropdown-link-active-bg;
+
+// Form states and alerts
+// -------------------------
+
+@state-success-text:             @white;
+@state-success-border:           #D6E9C6;
+@state-success-bg:               fade(@state-success-border, 0.28);
+
+@state-info-text:                @white;
+@state-info-border:              #4ab0ce;
+@state-info-bg:                  fade(@state-info-border, 0.29);
+
+@state-warning-text:             @white;
+@state-warning-border:           #E5BE56;
+@state-warning-bg:               fade(@state-warning-border, 0.28);
+
+@state-danger-text:              @white;
+@state-danger-border:            fade(#F26349, .7);
+@state-danger-bg:                fade(@state-danger-border, 0.29);
+
+//== Tables
+//
+@table-bg-accent:               @bg-addition;
+@table-border-color:            fade(@widget-bg-common, .35); // table and cell border
+@table-bg-hover:                darken(@bg-addition, 5%);
+
+
+// List group
+// -------------------------
+@list-group-bg: @widget-bg;
+@list-group-border:           transparent;
+@list-group-link-color:       @widget-color;
+@list-group-hover-bg: @bg-addition;
+// Jumbotron
+// -------------------------
+
+@jumbotron-color:                inherit;
+@jumbotron-bg:                   transparent;
+
+@jumbotron-heading-color:        inherit;
+
+// Popovers
+// -------------------------
+@popover-bg:                          fade(@widget-bg-common, .85);
+@popover-arrow-color:                 @popover-bg;
+@popover-border-color:                transparent;
+
+// Thumbnails
+// -------------------------
+@thumbnail-bg:                    @widget-bg;
+@thumbnail-border:                    none;
+
+// Pagination
+// -------------------------
+
+@pagination-color:                     @text-color;
+@pagination-bg:                        transparent;
+@pagination-border:                    transparent;
+
+@pagination-hover-color:               @white;
+@pagination-hover-bg:                  @bg-addition;
+@pagination-hover-border:              transparent;
+
+@pagination-active-color:              @white;
+@pagination-active-bg:                 @bg-addition;
+@pagination-active-border:             transparent;
+
+@pagination-disabled-color:            @gray-lighter;
+@pagination-disabled-bg:               transparent;
+@pagination-disabled-border:           transparent;
+
+// Breadcrumbs
+// -------------------------
+@breadcrumb-bg:               transparent;
+@breadcrumb-color:            @text-color;
+@breadcrumb-active-color:     darken(@breadcrumb-color, 25%);
+@breadcrumb-separator:        ">";
+
+// Carousel
+// ------------------------
+
+@carousel-control-color:      @widget-color;
+@carousel-text-shadow:                        none;
+
+@carousel-control-width:                      6%;
+@carousel-control-opacity:                    1;
+
+@carousel-indicator-active-bg:                @red;
+@carousel-indicator-border-color:             transparent;
+
+// Wells
+// -------------------------
+
+@well-bg:         @bg-addition;
+@well-border:     transparent;
+
+// Code (inline and block)
+// --------------------------------------------------
+
+@pre-bg: @bg-addition;
+@pre-color:                   @text-color;
+@pre-border-color: @widget-bg;
+
+// Type
+// --------------------------------------------------
+
+@blockquote-border-color:             @widget-bg;
+
+// Custom libs variables
+// ------------------------
+
+// Awesome Checkbox
+// ------------------------
+
+@awesome-checkbox-default-color:       #eee;
