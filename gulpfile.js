@@ -9,7 +9,7 @@ gulp.task('styles', function () {
 
   return gulp.src([
     'less/style.less'
-  , 'less/themes/*.less'
+  , 'less/themes/lightblue.less'
   ], {base: 'less'})
     .pipe($.plumber())
     .pipe($.less())
